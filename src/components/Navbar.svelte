@@ -14,7 +14,8 @@
 <style>
     .navbar{
         background-color: black;
-        width:30.5rem;
+        min-width:30.5rem;
+        max-width: 31rem;
         height: 5rem;
         top:0;
         position: sticky;
@@ -40,7 +41,7 @@
         margin-left: -1.70rem;
         font-size:.9em;
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-        transition: 0.6s;
+        transition: 0.3s;
     }
 
     .btn-text{
@@ -54,5 +55,10 @@
         margin-left: -0.75rem;
     }
 
+    @media(max-width:700px){
+        .navbar{
+            min-width: 497px;
+        }
+    }
     
 </style>

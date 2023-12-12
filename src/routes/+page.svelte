@@ -1,9 +1,17 @@
-<h1>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nam quo obcaecati perspiciatis necessitatibus repellendus deserunt itaque ipsum culpa vitae. Eos accusantium dicta quia exercitationem quidem rem porro facere incidunt!
-</h1>
+<script>
+    import Article from "../components/Article.svelte";
+</script>
+
+
+<div class = "container">
+    <Article />
+</div>
+
 
 <style>
-    h1{
-        font-size: 90px;
+    .container{
+        font-size: 30px;
+        margin-top: 10rem;
+        display: grid;
     }
 </style>
