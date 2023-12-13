@@ -4,7 +4,7 @@
 
 
 <div class = "container">
-    <Article />
+    
 </div>
 
 
@@ -12,6 +12,5 @@
     .container{
         font-size: 30px;
         margin-top: 10rem;
-        display: grid;
     }
 </style>
